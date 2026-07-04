@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f7f8f2" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <title>今天吃什么</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      if (window.location.protocol === "file:" && !/[\\/]docs[\\/]index\.html$/i.test(decodeURIComponent(window.location.pathname))) {
+        window.location.replace(new URL("./docs/index.html", window.location.href).href);
+      }
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
